@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Tourney:wght@800&display=swap'); */
+
+
+
+
+/*  .lines {
+  color: #59c1fe;
+  position: fixed;
+  width: 100vw;
+  height: 4em;
+  background: linear-gradient(rgba($color, 0.2) 20%, $color 40%, $color 60%, rgba($color, 0.2) 80%);
+  background-size: 1px 0.5em;
+  box-shadow: 0 0 1em rgba($color, 0.4);
+  transform: translateY(-1em);
+  left: 0;
+}  */
+
+.NavMain{
+  /*   background-size: cover; */
+  /* background-size: cover;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  max-height: 200px; */
+  color: white;
+  /* height: calc(100vh);  */
+  padding: -10px;
+  margin: -10px;
+  border: -10px;
+  
+  }
+  
+
+img#header{
+
+
+  width: calc(40vh);
+  height: auto;
+  overflow-x: hidden !important;
+  position: relative;
+  min-width: 100%;
+}
+
+img#logo{
+  position: absolute;
+  left: 1px;
+  top: 6px;
+  width: 40px;
+  height: 40px;
+}
+
+.NavMain .nav-list {
+  text-align: center;
+  position: absolute;
+  top: -8px;
+  right: 12px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.NavMain .nav-list a{
+text-decoration: none;
+color: white;
+list-style-type: none;
+font-size: 12px;
+float: right;
+padding: 3px;
+margin: 2px;
+display: block;
+background-color: rgba(4, 4, 4, 0.694); 
+border-style: solid;
+border-width: 1px;
+border-radius: 8px;
+}
+
+.NavMain .nav-list a:hover{
+  background-color: rgba(245, 239, 239, 0.694); 
+  color: black;
+  
+  }
+
+.header h1 {
+  position: relative;
+  font-family: 'Exo';
+  font-size: 9em;
+  transform: skew(-15deg);
+  letter-spacing: 0.03em;
+  top: -10%;
+  left: 30%;
+  position: absolute;
+}
+/*   &::after {
+    content: '';
+
+    background: 
+      radial-gradient(rgba(white, 0.3) 15%, rgba(white, 0.05) 60%, transparent 80%),
+      radial-gradient(rgba(white, 0.2) 50%, transparent 60%) 50% 50% / 5% 100%,
+      radial-gradient(rgba(white, 0.2) 50%, transparent 60%) 50% 50% / 70% 5%;
+    background-repeat: no-repeat;
+  }
+} */
+
+        .header h2 {
+/*         font-family: 'Rock Salt'; */
+        font-family: 'Mr Dafoe';
+        font-size: 7em;
+/*         text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1; */
+        transform: rotate(-7deg);
+        top: 15%;
+        left: 40%;
+        position: absolute;
+        color: white;
+        /* text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135; */
+/*         text-shadow: 1px 1px 0px #10100f, 0px 2px 0px #fffefe, 0px 3px 0px #fffbfb, 0px 4px 0px #fefefe, 0px 5px 0px #fefcfc, 0px 6px 0px #fcfafa, 0px 7px 0px #fcfcfc, 0px 8px 7px #fafafa; */
+/*         -webkit-text-stroke: 1px #928210;  */
+/* background-image: linear-gradient(#ffc000 25%, #b7911c 35%, #7e5e00 50%, #7d5f00 50%, #493700 55%, #594300 75%); */
+/* -webkit-text-stroke: 3px #000000; */
+-webkit-background-clip: text;
+/* -webkit-text-fill-color: transparent; */
+      }
+    
+      
+  span:first-child {
+    display: block;
+/*     text-shadow: 0 0 0.1em #ffffff, 0 0 0.2em #ffdb00, 0 0 5em #ffffff;
+    -webkit-text-stroke: 0.06em rgba(black, 0.5); */
+  }
+  
+  span:last-child {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: white;
+/*     background-image: linear-gradient(#9d9d9d 25%, #919191 35%, #e5ddc7 50%, #967200 50%, #ffc200 55%, #3f3000 75%);
+    -webkit-text-stroke: 3px #000000;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+  }
